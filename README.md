@@ -70,22 +70,21 @@ First of all, you have to download the entire repository by using the `Download`
 1. Press **Ok**
 
 ## Run on device
-### Build
+### Build and Deploy
 1. Right Click on [WidgetsDemo.java](ej.demo.ui.widget/src/main/java/ej/demo/ui/widget/WidgetsDemo.java)
-1. Select **Run as -> Run Configuration**
+1. Select **Run as -> Run Configurations...** 
 1. Select **MicroEJ Application** configuration kind
 1. Click on **New launch configuration** icon
 1. In **Execution** tab
-	1. In **Target** frame, in **Platform** field, select a relevant platform (but not a virtual device)
+	1. In **Target** frame, in **Platform** field, select a relevant platform
 	1. In **Execution** frame
 		1. Select **Execute on Device**
 		2. In **Settings** field, select **Build & Deploy**
+1. In **Configuration** tab
+	1. In **Board** frame
+		1. Set **Host** field to your board IP address
 1. Press **Apply**
 1. Press **Run**
-1. Copy the generated `.out` file path shown by the console
-
-### Flash
-1. Use the appropriate flashing tool.
 
 # MicroUI vs. MWT+Widget
 By default, consider using MWT+Widget.
